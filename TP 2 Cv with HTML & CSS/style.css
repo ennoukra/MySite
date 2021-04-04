@@ -41,6 +41,10 @@ textarea {
   display: flex;
 }
 
+.rigth-said {
+  float: right;
+}
+
 .said-bar {
   padding: 20px;
   margin: 10px;
