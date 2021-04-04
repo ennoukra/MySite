@@ -1,8 +1,45 @@
 body {
   font-family: "Oswald", sans-serif;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(221, 0, 249, 1) 0%,
+    rgba(0, 35, 255, 1) 100%
+  );
+  color: #2a2c2b;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #dc3522;
+  padding: 5px 20px;
+  margin: 5px 20px;
+  display: block;
+  width: 300px;
+  border-radius: 5px;
+}
+
+a:hover {
+  opacity: 0.8;
 }
 
 /* classes style */
+.container {
+  background: #bdc3c7;
+  margin: 40px;
+  padding: 20px;
+  height: 80vh;
+  border-radius: 10px;
+}
+
 .info {
-  padding-left: 15em;
+  background-color: ;
+  text-align: center;
+}
+
+.Mon-travail {
+  /* display: inline; */
 }
