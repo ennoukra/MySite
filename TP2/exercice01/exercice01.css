@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: turquoise;
+  height: 100%;
+  border-radius: 10px;
+}
+.center {
+  text-align: center;
+  padding: 10px;
+  background-color: tomato;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.size {
+  margin-bottom: 5px;
+  width: 50px;
+  height: 50px;
+  border: 2px solid white;
+}
+
+.red {
+  background: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.Positionnement_absolut {
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: row;
+}
+
+.Figure-1 {
+  background-color: rgb(77, 75, 67);
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 20px;
+  width: 20%;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+}
+
+.Figure-2 {
+  background-color: rgb(77, 75, 67);
+  padding: 20px;
+  width: 20%;
+  margin-left: 10px;
+  margin-top: 10px;
+  position: relative;
+  height: 170px;
+  /* display: flex;
+  justify-content: center;
+  */
+}
+
+.Positionnement_absolut .Figure-2 .red {
+  margin-bottom: 0px;
+}
+
+.Positionnement_absolut .Figure-2 .yellow {
+  margin-bottom: 0px;
+  position: absolute;
+  left: 74px;
+}
+
+.Positionnement_absolut .Figure-2 .blue {
+  position: absolute;
+  left: 128px;
+  top: 128px;
+}
+
+.Figure-3 {
+  background-color: rgb(77, 75, 67);
+  padding: 20px;
+  width: 20%;
+  margin-left: 10px;
+  margin-top: 10px;
+  position: relative;
+  height: 170px;
+}
+
+.Positionnement_absolut .Figure-3 .red {
+  width: 150px;
+  margin-bottom: 5px;
+}
+
+.Positionnement_absolut .Figure-3 .yellow {
+  width: 70px;
+  position: absolute;
+}
+
+.Positionnement_absolut .Figure-3 .blue {
+  width: 70px;
+  position: absolute;
+  left: 100px;
+}
+
+.Figure-4 {
+  background-color: rgb(77, 75, 67);
+  padding: 20px;
+  width: 20%;
+  margin-left: 10px;
+  margin-top: 10px;
+  position: relative;
+  height: 170px;
+  margin-bottom: 20px;
+}
+
+.Positionnement_absolut .Figure-4 .blue {
+  position: absolute;
+  top: 20px;
+  left: 79px;
+}
+
+/*Positionnement relatif  */
+.Positionnement_relatif {
+  display: flex;
+  flex-direction: row;
+}
+
+.Positionnement_relatif .Figure-2 .red {
+  margin-bottom: 0;
+}
+
+.Positionnement_relatif .Figure-2 .yellow {
+  position: relative;
+  left: 54px;
+  margin-bottom: 0;
+}
+
+.Positionnement_relatif .Figure-2 .blue {
+  position: relative;
+  left: 108px;
+}
+
+.Positionnement_relatif .Figure-3 .red {
+  width: 80%;
+}
+
+.Positionnement_relatif .Figure-3 .yellow {
+  width: 38%;
+  /* left: 10%; */
+}
+.Positionnement_relatif .Figure-3 .blue {
+  position: relative;
+  top: -59px;
+  left: 42%;
+  width: 38%;
+}
+
+.Positionnement_relatif .Figure-4 .blue {
+  position: relative;
+  left: 59px;
+  top: -118px;
+}

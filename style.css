@@ -40,11 +40,14 @@ a:hover {
   text-align: center;
 }
 
-/* .Mon-travail {
-   display: inline;
-} */
+.Mon-travaile {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
 
-.tp1 {
+.tp {
+  margin-right: 10px;
   width: 30%;
   text-align: center;
   padding: 20px;
