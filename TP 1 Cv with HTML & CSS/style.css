@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Source+Code+Pro:ital@1&display=swap");
+
+body {
+  font-family: "Oswald", sans-serif;
+  font-family: "Source Code Pro", monospace;
+  font-size: 2.5vh;
+}
+
+img {
+  border: #333 solid 2px;
+  border-radius: 50%;
+}
+
+h3 {
+  color: blue;
+}
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+textarea {
+  resize: none;
+}
+
+.infos {
+  padding: 20px 0;
+  padding-top: 40px;
+}
+
+.infos a {
+  color: black;
+}
+
+.wait {
+  color: #fff;
+  text-align: center;
+}
+
+.all {
+  display: flex;
+}
+
+.rigth-said {
+  float: right;
+}
+
+.said-bar {
+  padding: 20px;
+  margin: 10px;
+  background: #bdc3c7;
+  width: 240px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.reigth-said {
+  padding: 20px 50px;
+  margin: 10px;
+  margin-left: 0;
+  background-color: lightblue;
+  border-radius: 5px;
+}
+
+.all-form {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+}
+
+.contact-form {
+  display: flex;
+}
+
+.input-faild {
+  display: flex;
+  flex-direction: column;
+  margin-right: 8%;
+}
+
+.input-faild,
+.msg {
+  width: 48%;
+}
+
+.input-faild .input,
+.msg textarea {
+  margin: 10px 0px;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #c5ecfd;
+  padding: 10px;
+  color: #c5ecfd;
+  width: 100%;
+}
+
+.msg textarea {
+  height: 186px;
+}
+
+.btn {
+  background: #39b7dd;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+}

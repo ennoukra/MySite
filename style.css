@@ -18,7 +18,7 @@ a {
   padding: 5px 20px;
   margin: 5px 20px;
   display: block;
-  width: 300px;
+  width: 80%;
   border-radius: 5px;
 }
 
@@ -36,10 +36,22 @@ a:hover {
 }
 
 .info {
-  background-color: ;
+  /* background-color: ; */
   text-align: center;
 }
 
-.Mon-travail {
-  /* display: inline; */
+/* .Mon-travail {
+   display: inline;
+} */
+
+.tp1 {
+  width: 30%;
+  text-align: center;
+  padding: 20px;
+  background-color: cadetblue;
+  border-radius: 5px;
+}
+
+.gitlink {
+  width: 20%;
 }
