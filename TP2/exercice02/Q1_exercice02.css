@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Source Code Pro", monospace;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+body {
+  background-color: khaki;
+  justify-content: center;
+  align-content: center;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.general {
+  padding: 20px;
+  border: darkblue 3px solid;
+  margin-bottom: 5px;
+}
+
+.en-tete {
+  background-color: tomato;
+  height: 40px;
+}
+
+.section-0 {
+  background-color: darkcyan;
+}
+
+.section-1-0 {
+  display: flex;
+  flex-grow: row;
+}
+
+.section-1 {
+  background-color: darkkhaki;
+  margin-right: 10px;
+  width: 24%;
+  height: 60px;
+}
+.section-2 {
+  background-color: darkorange;
+  margin-right: 10px;
+  width: 24%;
+  height: 60px;
+}
+.section-3 {
+  background-color: darkslateblue;
+  margin-right: 10px;
+  width: 24%;
+  height: 60px;
+}
+.section-4 {
+  background-color: darkturquoise;
+  width: 24%;
+  height: 60px;
+}
+
+.section-1-1 {
+  display: flex;
+  flex-grow: row;
+}
+
+.section-5 {
+  background-color: deeppink;
+  margin-right: 10px;
+  width: 50%;
+  height: 50px;
+}
+
+.section-6 {
+  background-color: firebrick;
+  width: 50%;
+}
+
+.peid-de-page {
+  background-color: grey;
+}
+/* Tablet */
+@media only screen and (max-width: 768px) {
+  * {
+    font-size: 1.2rem;
+  }
+  .section-1-0 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+
+  .section-1 {
+    flex-grow: 6;
+    width: auto;
+    margin-right: 0;
+  }
+  .section-2 {
+    flex-grow: 6;
+    width: auto;
+    margin-right: 0;
+  }
+  .section-3 {
+    flex-grow: 6;
+    width: auto;
+    margin-right: 0;
+  }
+  .section-4 {
+    flex-grow: 6;
+    width: auto;
+    margin-right: 0;
+  }
+  .section-1,
+  .section-3 {
+    margin-right: 10px;
+  }
+
+  .section-1-1 {
+    display: block;
+  }
+  .section-5,
+  .section-6 {
+    width: auto;
+  }
+  .section-5 {
+    margin-right: 0;
+  }
+}
+/* telephone portable */
+@media only screen and (max-width: 376px) {
+  * {
+    font-size: 1.2rem;
+  }
+  .section-1-0 {
+    display: block;
+  }
+  .section-1,
+  .section-2,
+  .section-3,
+  .section-4 {
+    width: auto;
+    margin-right: 0;
+  }
+  .section-1-1 {
+    display: block;
+  }
+  .section-5,
+  .section-6 {
+    width: auto;
+  }
+  .section-5 {
+    margin-right: 0;
+  }
+}
