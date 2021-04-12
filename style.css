@@ -16,7 +16,7 @@ a {
   color: #fff;
   background-color: #dc3522;
   padding: 5px 20px;
-  margin: 5px 20px;
+  margin: 5px auto;
   display: block;
   width: 80%;
   border-radius: 5px;
@@ -31,7 +31,7 @@ a:hover {
   background: #bdc3c7;
   margin: 40px;
   padding: 20px;
-  height: 80vh;
+  /* height: 80vh; */
   border-radius: 10px;
 }
 
@@ -57,4 +57,45 @@ a:hover {
 
 .gitlink {
   width: 20%;
+}
+
+footer {
+  padding: 5px 10px;
+  background-color: #333;
+  width: auto;
+  margin: 10px auto;
+  color: #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .Mon-travaile {
+    display: block;
+  }
+  .tp {
+    width: auto;
+    margin-bottom: 10px;
+  }
+  .container {
+    height: 100%;
+  }
+  .gitlink {
+    width: auto;
+  }
+  footer {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  * {
+    font-size: 0.9rem;
+  }
+  a {
+    margin: 5px 0;
+  }
 }
