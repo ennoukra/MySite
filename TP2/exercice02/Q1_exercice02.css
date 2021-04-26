@@ -7,6 +7,10 @@
   font-size: 1.3rem;
 }
 
+p {
+  font-size: 0.9rem;
+}
+
 body {
   background-color: khaki;
   justify-content: center;
@@ -92,7 +96,7 @@ footer {
   background-color: dimgray;
 }
 
-@media only screen and (max-width: 830px) {
+@media only screen and (max-width: 890px) {
   ._1_0 {
     display: block;
   }
@@ -119,6 +123,12 @@ footer {
 }
 
 @media only screen and (max-width: 500px) {
+  .general {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
   ._1_1,
   ._1_2 {
     display: block;
